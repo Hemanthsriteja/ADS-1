@@ -1,0 +1,1 @@
+he output printed by java Stack for the input (where "-" means pop) it was - the best - of times - - - it was - the - - is "it"
