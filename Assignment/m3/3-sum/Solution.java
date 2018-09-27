@@ -9,6 +9,9 @@ public class Solution {
      *
      * @param      args  The arguments
      **/
+    private Solution() {
+
+    }
     final public static void main(String[] args) {
     /**
      *
