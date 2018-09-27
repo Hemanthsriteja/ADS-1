@@ -12,24 +12,29 @@ public final class Solution {
     private Solution() {
 
     }
-    public static void main(String[] args) {
+    /**.
+     * { function_description }
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
     /**
      *
      *{ var_description }
      **/
-        Scanner Scanner = new Scanner(System.in);
-        int arr_size = Scanner.nextInt();
-        int[] arr = new int[arr_size];
+        Scanner scan = new Scanner(System.in);
+        int arrsize = scan.nextInt();
+        int[] arr = new int[arrsize];
         int count = 0;
-        for (int i = 0; i < arr_size; i++) {
-            arr[i] = Scanner.nextInt();
+        for (int i = 0; i < arrsize; i++) {
+            arr[i] = scan.nextInt();
         }
         Arrays.sort(arr);
         int j = 0;
         int k = 0;
-        for (int i = 0; i < arr_size; i++) {
+        for (int i = 0; i < arrsize; i++) {
             j = i + 1;
-            k = arr_size - 1;
+            k = arrsize - 1;
             while (j < k) {
                 if (arr[i] + arr[j] + arr[k] < 0) {
                     j += 1;
