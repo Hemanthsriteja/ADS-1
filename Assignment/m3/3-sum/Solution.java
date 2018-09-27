@@ -4,11 +4,10 @@ import java.util.Arrays;
  *  class.
  **/
 public final class Solution {
-    /**
-     *  args.
-     *
-     * @param      args  The arguments
-     **/
+
+    /**.
+     * Constructs the object.
+     */
     private Solution() {
 
     }
