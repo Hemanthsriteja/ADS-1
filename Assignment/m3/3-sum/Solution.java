@@ -12,7 +12,7 @@ public final class Solution {
     private Solution() {
 
     }
-    final public static void main(String[] args) {
+    public static void main(String[] args) {
     /**
      *
      *{ var_description }
