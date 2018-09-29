@@ -18,7 +18,6 @@ class LinkedList {
         if (last != null) {
        Node temp = first;
        while(temp.next.next != null) {
-
             temp = temp.next;
         }
         temp.next = null;
