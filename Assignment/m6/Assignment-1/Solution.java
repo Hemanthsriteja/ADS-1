@@ -4,7 +4,7 @@ class AddLargeNumbers {
         LinkedList l = new LinkedList();
         int size = number.length();
         String[] ar = new String[size];
-        ar = number.split(" ");
+        ar = number.split("");
         for(int i = 0; i < size; i++) {
             l.push(ar[i]);
         }
