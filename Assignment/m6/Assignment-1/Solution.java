@@ -10,11 +10,9 @@ class AddLargeNumbers {
         }
         return l;
     }
-
     public static String digitsToNumber(LinkedList list) {
         return list.displayAll();
     }
-
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
         return list1;
     }
@@ -39,6 +37,8 @@ public class Solution {
                  qDigits = AddLargeNumbers.numberToDigits(q);
                 LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
                 System.out.println(AddLargeNumbers.digitsToNumber(result));
+                break;
+            case "default" :
                 break;
         }
     }
