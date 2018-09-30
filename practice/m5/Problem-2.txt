@@ -1,0 +1,13 @@
+hat does the following code fragment do to the queue q?
+
+Input:  0 1 2 3 4 5
+
+Stack stack = new Stack();
+while (!q.isEmpty())
+	stack.push(q.dequeue());
+
+output : 0 1 2 3 4 5
+
+while (!stack.isEmpty())
+	q.enqueue(stack.pop());
+output : 5 4 3 2 1 0
