@@ -1,0 +1,5 @@
+Starting audit...
+[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m10\10.1 LinkedList using Recursion\Solution.java:50:12: Variable 'data' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m10\10.1 LinkedList using Recursion\Solution.java:54:10: Variable 'next' must be private and have accessor methods. [VisibilityModifier]
+Audit done.
+Checkstyle ends with 2 errors.
