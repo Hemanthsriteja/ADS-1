@@ -1,0 +1,4 @@
+Starting audit...
+[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m8\8.2 Team Ranking With Selection\Team.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+Audit done.
+Checkstyle ends with 1 errors.
