@@ -9,7 +9,7 @@ import java.util.Arrays;
 
 /**
  * Class for solution.
- * @author     priyanka maladi.
+ * @author     Hemanth
  */
 public final class Solution {
     /**
