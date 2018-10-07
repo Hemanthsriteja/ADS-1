@@ -3,7 +3,7 @@ sorting using the Selection sort
 STEP-1
 0 1 2 3 4 5 6 7 8 9 10 11
 E A S Y Q U E S T I O  N
-first, we will compare the 0th index element and find out the mim element in the array.
+first, we will compare the 0th index element and find out the min element in the array.
 1st index is min so
 STEP-2
 0 1 2 3 4 5 6 7 8 9 10 11
