@@ -1,0 +1,4 @@
+Starting audit...
+[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m9\9.1 Merge Sort Improvements\Solution.java:10:23: Name 'CUT' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+Audit done.
+Checkstyle ends with 1 errors.
