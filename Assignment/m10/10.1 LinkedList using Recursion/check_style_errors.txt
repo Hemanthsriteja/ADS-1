@@ -1,5 +1,7 @@
 Starting audit...
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m10\10.1 LinkedList using Recursion\Solution.java:50:22: Variable 'data' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m10\10.1 LinkedList using Recursion\Solution.java:54:20: Variable 'next' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m10\10.1 LinkedList using Recursion\Solution.java:63:8: Unused @param tag for 'val'. [JavadocMethod]
+[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m10\10.1 LinkedList using Recursion\Solution.java:65: Expected @return tag. [JavadocMethod]
+[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m10\10.1 LinkedList using Recursion\Solution.java:68:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m10\10.1 LinkedList using Recursion\Solution.java:71:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 4 errors.

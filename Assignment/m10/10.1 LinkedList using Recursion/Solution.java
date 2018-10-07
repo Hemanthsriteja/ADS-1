@@ -47,16 +47,27 @@ class Node {
     /**
      * var_description.
      */
-    protected String data;
+    private String data;
     /**
      * var_description.
      */
-    protected Node next;
+    private Node next;
     /**
      * Constructs the object.
      *
      * @param      val   The value
      */
+    /**
+     * Constructs the object.
+     *
+     * @param      val   The value
+     */
+    public String getters() {
+        return null;
+    }
+    public Node getter() {
+        return next;
+    }
     Node(final String val) {
         data = val;
     }
