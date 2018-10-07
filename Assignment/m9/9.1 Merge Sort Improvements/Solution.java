@@ -7,7 +7,7 @@ class Merge {
     /**.
      * final variable.
      */
-    private final int CUT = 7;
+    private final int cut = 7;
     /**.
      * int arr size variable.
      */
@@ -172,7 +172,7 @@ class Merge {
      */
     public void sort(final Comparable[] arr2,
         final Comparable[] aux, final int lo, final int hi) {
-        if (hi <= lo + CUT) {
+        if (hi <= lo + cut) {
             insertionSort(aux, lo, hi);
             System.out.println("Insertion sort method invoked...");
             return;
