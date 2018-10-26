@@ -1,0 +1,4 @@
+a. All keys hash to the same index------->Linear search time
+b. All keys hash to different indices------>Constant search time
+c. All keys hash to an even-numbered index---->Linear search time
+d. All keys hash to different even-numbered indices---->constant search time
