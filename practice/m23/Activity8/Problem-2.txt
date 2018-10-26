@@ -1,0 +1,11 @@
+Keys:A B C D E F G
+Hash:2 0 0 4 4 4 1
+
+For the given problem set :
+
+a. E F G A C B D -- it couldn't form as it does not follow given hash and keys order as per question
+b. C E B G F D A -- it couldn't form as it does not follow given hash and keys order as per question
+c. B D F A C E G -- it couldn't form as it does not follow given hash and keys order as per question
+d. C G B A D E F -- it forms as per question and the new order is D E F C G B A
+e. F G B D A C E -- it couldn't form as it does not follow given hash and keys order as per question
+f. G E C A D B F -- it couldn't form as it does not follow given hash and keys order as per question
