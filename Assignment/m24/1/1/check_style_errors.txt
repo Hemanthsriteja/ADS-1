@@ -1,18 +1,10 @@
 Starting audit...
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:7:8: Unused import - java.util.Scanner. [UnusedImports]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:12:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:15:21: Name 'roll_number' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:19:24: Name 'student_name' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:23:24: Name 'total_marks' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:31:17: Parameter roll_number should be final. [FinalParameters]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:31:21: 'roll_number' hides a field. [HiddenField]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:31:21: Name 'roll_number' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:31:34: Parameter student_name should be final. [FinalParameters]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:31:41: 'student_name' hides a field. [HiddenField]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:31:41: Name 'student_name' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:31:55: Parameter total_marks should be final. [FinalParameters]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:31:62: 'total_marks' hides a field. [HiddenField]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:31:62: Name 'total_marks' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:8:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:27:17: Parameter rollnum should be final. [FinalParameters]
+[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:27:21: 'rollnum' hides a field. [HiddenField]
+[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:27:30: Parameter studentName should be final. [FinalParameters]
+[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:27:37: 'studentName' hides a field. [HiddenField]
+[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:27:50: Parameter totalmarks should be final. [FinalParameters]
+[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:27:57: 'totalmarks' hides a field. [HiddenField]
 Audit done.
-Checkstyle ends with 15 errors.
+Checkstyle ends with 7 errors.

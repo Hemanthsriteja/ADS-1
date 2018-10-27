@@ -2,36 +2,32 @@
  * @author @Hemanth Sriteja
  */
 /**.
- * import Scanner class
- */
-import java.util.Scanner;
-/**.
  * Class for student.
  */
 class Student {
 	/**.
 	 * roll number of the student.
 	 */
-	private int roll_number;
+	private int rollnum;
 	/**.
 	 * name of the student.
 	 */
-	private String student_name;
+	private String studentName;
 	/**.
 	 * total marks of the student.
 	 */
-	private double total_marks;
+	private double totalmarks;
 	/**.
 	 * Constructs the object.
 	 *
-	 * @param      roll_number   The roll number
-	 * @param      student_name  The student name
-	 * @param      total_marks   The total marks
+	 * @param      rollnum   The roll number
+	 * @param      studentName  The student name
+	 * @param      totalmarks   The total marks
 	 */
-	Student(int roll_number, String student_name, double total_marks) {
-		this.roll_number = roll_number;
-		this.student_name = student_name;
-		this.total_marks = total_marks;
+	Student(int rollnum, String studentName, double totalmarks) {
+		this.rollnum = rollnum;
+		this.studentName = studentName;
+		this.totalmarks = totalmarks;
 	}
 	/**.
 	 * Gets the rollnum
@@ -39,7 +35,7 @@ class Student {
 	 * @return     The roll.
 	 */
 	public int getRoll() {
-		return this.roll_number;
+		return this.rollnum;
 	}
 	/**.
 	 * Gets the name.
@@ -47,7 +43,7 @@ class Student {
 	 * @return     The name.
 	 */
 	public String getName() {
-		return this.student_name;
+		return this.studentName;
 	}
 	/**.
 	 * Gets the total.
@@ -55,6 +51,7 @@ class Student {
 	 * @return     The total.
 	 */
 	public double getTotal() {
-		return this.total_marks;
+		return this.totalmarks;
 	}
 }
+
