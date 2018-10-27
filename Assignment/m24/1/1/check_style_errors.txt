@@ -1,9 +1,2 @@
 Starting audit...
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:23:8: Unused @param tag for 'rollnum'. [JavadocMethod]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:24:8: Unused @param tag for 'studentName'. [JavadocMethod]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:25:8: Unused @param tag for 'totalmarks'. [JavadocMethod]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:27:23: Expected @param tag for 'rollnum1'. [JavadocMethod]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:27:46: Expected @param tag for 'studentName1'. [JavadocMethod]
-[ERROR] C:\Users\omsai\Desktop\MSIT\1st Year\ADS-1\Assignment\m24\1\1\Student.java:28:22: Expected @param tag for 'totalmarks1'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 6 errors.

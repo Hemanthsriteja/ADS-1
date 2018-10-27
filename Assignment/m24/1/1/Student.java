@@ -17,12 +17,12 @@ class Student {
      * total marks of the student.
      */
     private double totalmarks;
-    /**.
+    /**
      * Constructs the object.
      *
-     * @param      rollnum   The roll number
-     * @param      studentName  The student name
-     * @param      totalmarks   The total marks
+     * @param      rollnum1      The rollnum 1
+     * @param      studentName1  The student name 1
+     * @param      totalmarks1   The totalmarks 1
      */
     Student(final int rollnum1, final String studentName1,
         final double totalmarks1) {
