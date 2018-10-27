@@ -27,6 +27,19 @@ final class Solution {
              Double.parseDouble(input[2]));
             obj.put(Integer.parseInt(input[0]), input1);
         }
+        int n1 = Integer.parseInt(sc.nextLine());
+        for (int j = 0; j < n1; j++) {
+            String[] tokens = sc.nextLine().split(" ");
+
+            switch (tokens[2]) {
+            case "1":
+            System.out.println(obj.get(Integer.parseInt(tokens[1])).getName());
+            case "2":
+            System.out.println(obj.get(Integer.parseInt(tokens[1])).getName());
+            default:
+            break;
+      }
+}
 }
 }
 
