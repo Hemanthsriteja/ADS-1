@@ -24,10 +24,11 @@ class Student {
      * @param      studentName  The student name
      * @param      totalmarks   The total marks
      */
-    Student(final int rollnum, final String studentName, final double totalmarks) {
-        this.rollnum = rollnum;
-        this.studentName = studentName;
-        this.totalmarks = totalmarks;
+    Student(final int rollnum1, final String studentName1,
+        final double totalmarks1) {
+        this.rollnum = rollnum1;
+        this.studentName = studentName1;
+        this.totalmarks = totalmarks1;
     }
     /**.
      * Gets the rollnum
