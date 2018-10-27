@@ -1,4 +1,7 @@
-import java.util.*;
+/**.
+ * { item_description }
+ */
+import java.util.Scanner;
 /**
  *this the class for main.
  */
