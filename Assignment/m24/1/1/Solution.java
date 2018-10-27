@@ -16,11 +16,14 @@ final class Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = Integer.parseInt(sc.nextLine());
-        LinearProbingHashST<Integer, Student> obj = new LinearProbingHashST<>();
+        LinearProbingHashST<Integer, Student> obj = new
+        LinearProbingHashST<>();
         for (int i = 0; i < n; i++) {
             String[] input = sc.nextLine().split(",");
-            Student input1 = new Student(Integer.parseInt(input[0]), input[1], Double.parseDouble(input[2]));
+            Student input1 = new Student(Integer.parseInt(input[0]), input[1],
+             Double.parseDouble(input[2]));
             obj.put(Integer.parseInt(input[0]), input1);
         }
 }
 }
+
