@@ -47,11 +47,11 @@ class Node {
     /**
      * var_description.
      */
-    private String data;
+     String data;
     /**
      * var_description.
      */
-    private Node next;
+     Node next;
     /**
      * Constructs the object.
      *
