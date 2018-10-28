@@ -47,16 +47,11 @@ class Node {
     /**
      * var_description.
      */
-     String data;
+    String data;
     /**
      * var_description.
      */
-     Node next;
-    /**
-     * Constructs the object.
-     *
-     * @param      val   The value
-     */
+    Node next;
     /**
      * Constructs the object.
      *
