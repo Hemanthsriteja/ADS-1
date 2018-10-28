@@ -16,6 +16,7 @@ class Node {
     public void setData(int d){
         data = d;
     }
+
     public Node getLink() {
         return link;
     }
@@ -23,4 +24,3 @@ class Node {
         return data;
 
     }
-}
